@@ -6,7 +6,7 @@ jobs:
     name: A job to say hello
     steps:
       - name: Hello world action step
-        uses: demotcsorg/version_fetch@v1.1
+        uses: demotcsorg/version_fetch@v1.2
         with:
-          who-to-greet: 'Mona the Octocat'
+          module_name: 'Mona the Octocat'
 
