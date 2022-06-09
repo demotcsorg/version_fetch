@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: demotcsorg/version_fetch@v1.2
+        uses: demotcsorg/version_fetch@v1.6
         with:
           module_name: 'Mona the Octocat'
       - name: Get the version
