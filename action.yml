@@ -5,8 +5,8 @@ inputs:
     description: 'Who to greet'
     required: true
 outputs:
-  time: # id of output
-    description: 'The time we greeted you'
+  var: # id of output
+    description: 'The version to fetch for the module'
 runs:
   using: 'node16'
   main: 'index.js'

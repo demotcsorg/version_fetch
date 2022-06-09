@@ -6,7 +6,10 @@ jobs:
     name: A job to say hello
     steps:
       - name: Hello world action step
+        id: hello
         uses: demotcsorg/version_fetch@v1.2
         with:
           module_name: 'Mona the Octocat'
+      - name: Get the version
+        run: echo "The version is ${{ steps.hello.outputs.var }}"
 

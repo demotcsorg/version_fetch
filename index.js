@@ -31,6 +31,7 @@ try {
             console.log('finished search');
             resolve(result);
             console.log(result[0]);
+            core.setOutput("var", result[0]);
         })
         
     });
