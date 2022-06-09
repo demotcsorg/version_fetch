@@ -5,7 +5,7 @@ inputs:
     description: 'Who to greet'
     required: true
 outputs:
-  time: # id of output
+  ver: # id of output
     description: 'The time we greeted you'
 runs:
   using: 'node16'
