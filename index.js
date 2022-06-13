@@ -18,7 +18,7 @@ try {
         
 
         fs.readFile(filename + ".txt", 'utf8', function (err, contents) {
-            console.log(err)
+            //console.log(err)
             let lines = contents.toString().split("\n");
             lines.forEach(line => {
                 if (line && line.search(regEx) >= 0) {
@@ -37,7 +37,7 @@ try {
     });
 }
 
-searchFull('requirements','Flask');
+searchFull('requirements',`${mod_name}`);
   
 
 } catch (error) {
