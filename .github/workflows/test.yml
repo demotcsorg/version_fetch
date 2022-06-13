@@ -9,7 +9,7 @@ jobs:
         uses: actions/checkout@v2
       - name: Hello world action step
         id: hello
-        uses: demotcsorg/version_fetch@v1.6
+        uses: demotcsorg/version_fetch@v1.7
         with:
           module_name: 'Mona the Octocat'
       - name: Get the version
