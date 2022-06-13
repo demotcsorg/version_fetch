@@ -11,7 +11,7 @@ jobs:
         id: hello
         uses: demotcsorg/version_fetch@v1.7
         with:
-          module_name: 'Mona the Octocat'
+          module_name: 'Flask'
       - name: Get the version
         run: echo "The version is ${{ steps.hello.outputs.var }}"
 
